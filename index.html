@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BootCamp DNC</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!--MENU-->
+    <div class="container" id="menu">
+        <div id="menuLinks">
+            <a href="">Home</a>
+            <a href="">Última Edições</a>
+            <a href="">Requisitos para Participar</a>
+        </div>
+        <div id="menuButton">
+            <button>Login</button>
+        </div>
+    </div>
+
+    <!--SIGN UP AREA-->
+    <div class="container" id="signUpArea">
+        <div>
+            <h1 id="formTitle">
+                BOOTCAMP DNC
+            </h1>
+            <p id="formText">
+                Esse será um evento exclusivo para todos os alunos <br>
+                da <b>DNC</b>, que querem <span class="invert">acelerar a carreira</span> com uma <br>
+                semana intensiva de conteúdo de mercado entre <br>
+                <span class="invert">BACK-END, FRONT-END & BANCO DE DADOS.</span> 
+            </p>
+            <form action="" method="post" id="signUpForm">
+                <label for="">
+                    Nome: <br>
+                    <input type="text" name="Nome" id="name" placeholder="Insira seu nome aqui" required> <br>
+                </label> 
+                <label for="">Sobrenome: <br>
+                    <input type="text" name="Sobrenome" id="lastName" placeholder="Insira seu sobrenome aqui" required> <br>
+                </label> 
+                <label for="">
+                    Área de Interesse: <br>
+                    <input type="checkbox" value="Front-End" id="frontend" > <label for="">Front-End</label>
+                    <input type="checkbox" value="Back-End" id="backend" > <label for="">Back-End</label>
+                    <input type="checkbox" value="Banco de Dados" id="database" > <label for="">Banco de Dados</label> <br>
+                </label>
+                <label for="">
+                    E-mail: <br>
+                    <input type="email" name="Sobrenome" id="email" placeholder="Insira seu e-mail aqui" required>
+                </label> <br>
+                <label for="">
+                    Telefone: <br>
+                    <input type="text" name="Telefone" id="phone" placeholder="(99) 99999-9999" required> <br>
+                </label> 
+                <label for="">
+                    Insira uma frase criativa aqui: <br>
+                    <input type="text" name="Frase" id="phrase" placeholder="Qual frase criativa você gostaria de falar? :)" required> <br>
+                </label> 
+                <button type="submit">Cadastrar</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

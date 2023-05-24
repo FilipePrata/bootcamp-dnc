@@ -1,0 +1,80 @@
+* {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    color: #FFFFFF;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    display: grid;
+    grid-auto-flow: column;
+}
+
+#menu {
+    background: #303030;
+    padding: 2% 7% 2% 4.5%;
+    align-items: center;
+    border-bottom: 1px solid #BABABA;
+}
+
+#menuLinks a{
+    margin-left: 35px;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 30px;
+}
+
+#menuLinks a:hover {
+    color: #CCCCCC;
+    transition-duration: 0.5s;
+}
+
+#menuButton {
+    text-align: right;
+}
+
+#menuButton button {
+    background: #0C70F2;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    box-shadow: 3px 2px 4px rgba(12, 112, 242, 0.25);
+    border: none;
+    padding: 7px 13px 7px 13px;
+    cursor: pointer;
+}
+
+.invert {
+    background-color: black;
+}
+
+#signUpArea {
+    text-align: center;
+    background: linear-gradient(180deg, rgba(12, 112, 242, 0.5) 19.91%, rgba(12, 112, 242, 0) 24.84%), #303030;
+    padding: 100px 0 250px 0;
+}
+
+#formTitle {
+    font-weight: 800;
+    font-size: 80px;
+    line-height: 97px;
+}
+
+#formText {
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 48px;
+    margin-top: 25px;
+}
+
+#signUpForm {
+    text-align: left;
+    justify-content: center;
+    align-items: center;
+    margin-left: 30%;
+}
+
+
