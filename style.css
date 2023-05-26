@@ -49,6 +49,8 @@ a {
 
 .invert {
     background-color: black;
+    font-weight: 600;
+    padding: 0 5px 0 5px;
 }
 
 #signUpArea {
@@ -105,10 +107,6 @@ a {
     margin-bottom: 35px;
 }
 
-#database {
-    margin-bottom: 35px;
-}
-
 #signUpButton {
     font-weight: 600;
     font-size: 32px;
@@ -141,11 +139,15 @@ a {
 }
 
 #courses {
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 #about {
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     margin-left: 100px;
 }
 
@@ -174,12 +176,33 @@ h2 {
     margin: none;
 }
 
+#interestArea {
+    display: flex;
+    width: 57%;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 35px;
+}
 
+input[type="checkbox"] {
+    transform: scale(1.4);
+}
+
+h2 a:hover {
+    color: #CCCCCC;
+    transition-duration: 0.3s;
+}
 
 #extraFooter {
     background: #0C70F2;
     text-align: center;
     padding-bottom: 30px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
 }
 
-
+#extraFooter a:hover {
+    color: #CCCCCC;
+    transition-duration: 0.3s;
+}
