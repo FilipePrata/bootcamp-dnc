@@ -101,6 +101,7 @@ a {
     padding: 15px 0 15px 15px;
     margin-top: 10px;
     margin-bottom: 10px;
+    color: #303030;
 }
 
 #lastName {
@@ -205,4 +206,122 @@ h2 a:hover {
 #extraFooter a:hover {
     color: #CCCCCC;
     transition-duration: 0.3s;
+}
+
+@media only screen and (max-width: 600px) {
+    #menu {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin: 0px;
+        padding: 0px;
+        gap: 10px;
+    }
+
+    #menuLinks {
+        display: flex;
+        flex-direction: column;
+        margin: 0px;
+    }
+
+    #menuLinks a {
+        margin-left: 0px;
+        margin-top: 5px;
+        font-size: 15px;
+    }
+    
+    #menuButton {
+        margin-bottom: 12px;
+    }
+
+    #signUpArea {
+        width: 100%;
+        margin: 0px;
+        padding: 50px 0px 50px;
+    }
+
+    #formTitle {
+        font-weight: 800;
+        font-size: 60px;
+        line-height: 65px;
+    }
+
+    #formText {
+        font-weight: 500;
+        font-size: 25px;
+        line-height: 35px;
+        margin-top: 25px;
+    }
+
+    #signUpForm {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 0px;
+        margin-top: 80px;
+        width: 100%;
+    }
+    
+    .mainLabel {
+        font-size: 18px;
+    }
+    
+    .checkLabel {
+        font-size: 10px;
+        line-height: 18px;
+    }
+    
+    .textInput {
+        width: 250px;
+        font-size: 12px;
+        padding: 10px 0 10px 12px;
+        margin-top: 8px;
+        margin-bottom: 8px;
+        color: #303030;
+    }
+
+    #interestArea {
+        width: 260px;
+        align-items: center;
+        justify-content: space-around;
+        margin-bottom: 0px;
+    }
+
+    #footerLists {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    #footer {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding: 15px 0px 40px 0px;
+    }
+
+    #about {
+        margin-left: 0px;
+    }
+
+    h2 {
+        font-size: 18px;
+        margin-top: 7px;
+    }
+
+    .listTitles {
+        padding: 8px 12px 8px 12px;
+        font-size: 20px;
+        margin-left: none;
+        margin-top: 20px;
+    }
+
+    #info {
+        font-size: 15px;
+        align-items: center;
+        margin-top: 55px;
+    }
+
+    #extraFooter {
+        font-size: 15px;
+    }
 }
